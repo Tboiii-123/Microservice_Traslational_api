@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from googletrans import Translator
 import uuid
 
-app = FastAPI(title="Translated Microservice")
+app = FastAPI(title="Translation Microservice")
 translator = Translator()
 from fastapi.middleware.cors import CORSMiddleware
 
